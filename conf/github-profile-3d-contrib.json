@@ -1,8 +1,8 @@
 {
   "type": "bitmap",
   "fileName": "night.svg",
-  "backgroundColor": "#ffffff",
-  "foregroundColor": "#00000f",
+  "backgroundColor": "#00000f",
+  "foregroundColor": "#eeeeff",
   "strongColor": "#111133",
   "weakColor": "gray",
   "radarColor": "#47a042",

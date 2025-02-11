@@ -21,11 +21,9 @@ jobs:
     - name: Commit changes
       run: |
         git add .
-        git commit -m "Automated commit from GitHub Actions"
-
-    - name: Push changes
-      env:
-        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
-      run: |
-        git remote set-url origin https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/${{ github.repository }}
-        git push origin main
+        if git diff-index --quiet HEAD --; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automated commit from GitHub Actions"
+          git push origin main
+        fi

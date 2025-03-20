@@ -1,5 +1,5 @@
-<h1 align="center">Hi there 👋, I'm Emanuel Haro</h1>
-<h3 align="center">Advanced Systems Engineer Student and XR Developer</h3>
+<h1 align="center">Hi there 👋</h1>
+<h3 align="center">I'm an advanced Systems Engineering student and XR Developer</h3>
 
 <p align="center">
     <picture>

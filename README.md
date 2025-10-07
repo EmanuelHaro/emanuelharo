@@ -2,7 +2,7 @@
          alt="Waving hand animated gif"
          height="45"
          width="45" /></h1>
-<h3 align="center">I'm an advanced Systems Engineering student and XR Developer</h3>
+<h3 align="center">I'm an advanced Systems Engineering student and VR/XR Programmer</h3>
 
 <p align="center">
     <picture>
